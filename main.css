@@ -1,0 +1,67 @@
+body { 
+	background-color: #000;
+  background: url(https://static.pexels.com/photos/3247/nature-forest-industry-rails.jpg);/**/
+}
+
+.mePic{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px; 
+  
+  position: absolute; 
+  top: -100px;
+  left: 284px;
+  display:table-cell;
+}
+h1,p,div{
+  font-family: 'Taviraj', serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.box1{
+	width: 375px; 
+	height:65px;
+	background: #666;
+  margin-top: 3px;  
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 370px;
+  border-radius: 20px;
+  
+}
+
+.boxs{
+	width: 375px; 
+	height:65px;
+	background: #666;
+  margin-top: 3px;  
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 370px;
+  border-radius: 20px;
+  
+}
+div{
+	font-size: .99em;
+  text-align: center;
+  
+}
+.parts{
+  position:absolute;
+  top:15px;
+  
+}
+section {
+	margin: 125px auto;
+	padding: 80px;
+	max-width: 600px;
+	border-radius: 20px;
+	background-color: #ccc;
+  position: relative;
+}
+
+
