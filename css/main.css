@@ -1,68 +1,353 @@
-
-body { 
-	background-color: #000;
-  background: url(https://static.pexels.com/photos/3247/nature-forest-industry-rails.jpg);/**/
+body{
+  background-color: #482E3B;
 }
 
-.mePic{
-	width: 200px;
-	height: 200px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px; 
+.ul {
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+  /* nowrap will not change the size*/
+	justify-content: flex-end; 
+	width: 100%;
+}
+
+#li {
+	margin-right: 3%;
+  margin-left: 1%;
+}
+#name{
+  list-style: none;
   
-  position: absolute; 
-  top: -100px;
-  left: 284px;
-  display:table-cell;
+  justify-content: flex-start;
+  font-size:1em;
+  
+  margin-left: 1%;
+  
 }
-h1,p,div{
-  font-family: 'Taviraj', serif;
-  text-align: center;
-  margin-top: 30px;
+
+a {
+	text-decoration: none;
 }
-.box1{
-	width: 375px; 
-	height:65px;
-	background: #666;
-  margin-top: 3px;  
-  display: inline-block;
+.flower{
+  padding: 4%;
+  margin-top: %;
+  margin-left:45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+  /*
   position: absolute;
+  top: 20%;
+  left: 33%;*/
+
+}
+
+/*
+
+
+
+2nd SECTION
+
+
+
+
+*/
+.twoSECTION{
+  
+  
+  display: flex;
+	flex-flow: column wrap;
+	max-width: 100%;
+  max-hight: 0%;
+  padding: 3%;
+	/*margin: 3.5%,0%,3.5%,3.5%; */
+  margin-top: -4%;
+  margin-bottom: 10%; 
+  margin-left: -3%;
+  margin-right: -50%;
+	border-radius: 0px;
+	background: #FFF;
+  width: 100%;
+	height: 600%;
+ 
+  
+}
+	h3, p {    
+		display: inline-block;
+    position: relative;
+    width: 300%;
+    top: 1299%;
+    left: 0p%;
+		width: 100%;
+		float: right;
+    margin-left: 35%;    
+    
+	}
+/*position:relative;*/
+h3{
+ 
+  font-size: 30px;
+  position: absolute;
+  width: 300%;
+  top: 259%;
   left: 0px;
-  top: 370px;
-  border-radius: 20px;
+  color: #230C17;
+}
+p{
   
+  font-size: 19px;
+  color: #230C17;
+  
+  position: absolute;
+  width: 300px;
+  top: 1469px;
+  left: 3px;
+  
+   
+}
+img{
+  margin-top: 10%;
+  margin-bottom: 9%; 
+  
+}
+.line{
+  width: 60%;
+	height: .12%;
+	background: #B194A2;
+  margin-left: 35%;  
+  position: absolute;
+  width: 26%;
+  top: 278%;
+  left: 0%;
+}
+img { 
+	max-width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+/*
+
+
+3ed SECTION
+
+
+*/
+.flex-container {
+	display: flex;
+	flex-flow: column wrap;
+  /* row-reverse; will reverse 
+  column-reverse
+  flex-wrap:wraps;
+  /*single calome
+  flex-wrap:nonwraps;
+ flex-flow: row-reverse wrap;
+  
+  */
+
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-.boxs{
-	width: 375px; 
-	height:65px;
-	background: #666;
-  margin-top: 3px;  
+.flex-item {
+  background-color: #FFF;
+  padding: 0px;
+  width: 900px;
+  height: 350px;
+  margin-top: 40%;
+  
+  
+ 
+}
+ 
+#Man{
+  margin: 40% auto; 
   display: inline-block;
-  position: absolute;
-  right: 0px;
-  top: 370px;
-  border-radius: 20px;
-  
-}
-div{
-	font-size: .99em;
+  color: white;
+  list-style: none;
+  font-weight: bold;
+  font-size: 5em;
   text-align: center;
-  
+  margin-bottom: 17%;
 }
-.parts{
-  position:absolute;
-  top:15px;
-  
+#book{
+  display: inline-block;
+  color: white;
+  list-style: none;
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 17%;
 }
-section {
-	margin: 125px auto;
-	padding: 80px;
-	max-width: 600px;
-	border-radius: 20px;
-	background-color: #ccc;
+
+
+@media (min-width: 903px){
+body{
+  background: url("https://www.walldevil.com/wallpapers/a92/wallpaper-art-digital-abstract-hipster.jpg")
+}
+.contaner{
+	max-width: 80%; 
+	margin: 3.5% auto; 
+	border-radius: 0px;
+	background: #482E3B;
+  width: 6000px;
+	height: 802px;
   position: relative;
 }
 
 
+.ul {
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+  /* nowrap will not change the size*/
+	justify-content: flex-end;
+  flex-end moves to the end 
+	width: 20px;
+}
+
+#li {
+	margin-right: 3%;
+  margin-left: 1%;
+}
+#name{
+  list-style: none;
+  
+  justify-content: flex-start;
+  font-size:1em;
+  
+  margin-left: 1%;
+  
+}
+
+a {
+	text-decoration: none;
+}
+.flower{
+  padding: 6%;
+  margin-top:3%;
+  margin-left:center;
+  max-width: 70%;
+  
+ 
+  
+  /*
+  position: absolute;
+  top: 20%;
+  left: 33%;*/
+
+}
+
+/*
+
+
+
+2nd SECTION
+
+
+
+
+*/
+.twoSECTION{
+
+	max-width: 80%; 
+	/*margin: 3.5%,0%,3.5%,3.5%; */
+  margin-top: -4%;
+  margin-bottom: 10%; 
+  margin-left: 10%;
+	border-radius: 0px;
+	background: #FFF;
+  max- width: 80%;
+	height: 500%;
+ 
+  
+}
+  .mePic{
+    position: relative; 
+	  left: -33.7%;
+    margin-top: 1.5%;
+  }
+	h3, p {    
+		width: 50%;
+		float: right;
+    margin-right: 2%;  
+    text-align: left; 
+    
+    position: relative; 
+  	left: -2%;
+    top: -6%;
+	}
+h3{
+  color: #230C17;
+}
+p{
+  font-size:11.5px;
+  color: #230C17;
+  position: relative; 
+  top: -13%;
+	left: -2%;
+}
+.line{
+  width: 19%;
+	height: 2px;
+	background: #B194A2;
+  position: relative;
+  top: -500px;
+  left: 100px;
+}
+
+/*
+
+
+3ed SECTION
+
+
+*/
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+  /* row-reverse; will reverse 
+  column-reverse
+  flex-wrap:wraps;
+  /*single calome
+  flex-wrap:nonwraps;
+ flex-flow: row-reverse wrap;
+  
+  */
+	justify-content: space-around;
+	
+	list-style: none;
+	margin: 20;
+	padding: 60;
+  position: relative;
+  top: -530px;
+  width:50%;
+  left:10%;
+
+}
+
+.flex-item {
+  
+  padding: -100px;
+  width: 50%;
+  height: 150%;
+  margin-top: -10%;
+  margin-left:-20%;
+  
+  line-height: 150%;
+  color: red;
+  list-style: none;
+  font-weight: bold;
+  font-size: .3em;
+  text-align: center;
+}
+ 
+   
+}
+
+
+
+	
+	
